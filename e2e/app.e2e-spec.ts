@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('temporal App', () => {
+describe('angular5-from-scratch App', () => {
   let page: AppPage;
 
   beforeEach(() => {
