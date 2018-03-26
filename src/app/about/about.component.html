@@ -1,3 +1,10 @@
 <p>
-  about works!
+  This is what I'm all about. <a href="" (click)="SendMeHome()">Take me back</a>.
 </p>
+<br>
+<p class="title">My Goals</p>
+<ul class="color-light">
+  <li class="about-goals" *ngFor="let goal of goals">
+    {{goal}}
+  </li>
+</ul>
